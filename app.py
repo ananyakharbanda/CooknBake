@@ -3,6 +3,7 @@ import logging
 import uuid
 import base64
 import requests
+import json
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from flask_limiter import Limiter
